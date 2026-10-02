@@ -1,0 +1,15 @@
+# Local testing data
+testing data/
+test-donors_finaltesting.csv
+
+# Demo video
+upay_final.mp4
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+uplift-backend/src/main/resources/application.properties
+uplift-frontend/samadhan.pdf

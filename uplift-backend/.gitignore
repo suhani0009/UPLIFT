@@ -1,0 +1,77 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# =========================
+# Java / Spring Boot
+# =========================
+uplift-backend/target/
+uplift-backend/.mvn/
+*.class
+
+# Local environment / credentials
+uplift-backend/src/main/resources/application.properties
+uplift-backend/src/main/resources/application-local.properties
+.env
+.env.*
+
+# =========================
+# React / Vite / Node
+# =========================
+uplift-frontend/node_modules/
+uplift-frontend/dist/
+uplift-frontend/.vite/
+
+# Environment files
+uplift-frontend/.env
+uplift-frontend/.env.*
+
+# =========================
+# IDE
+# =========================
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# Local testing data
+testing data/
+test-donors_finaltesting.csv

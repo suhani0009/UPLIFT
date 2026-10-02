@@ -1,0 +1,56 @@
+:root {
+  --navy: #0f2d3a;
+  --navy-mid: #163a4a;
+  --teal: #1b6b63;
+  --teal-soft: #e6f3f1;
+  --gold: #c4a35a;
+  --paper: #f4f1ea;
+  --paper-deep: #e8e2d6;
+  --card: #ffffff;
+  --ink: #1c2428;
+  --muted: #5c6a71;
+  --line: #d9d3c7;
+  --danger: #9b3b3b;
+  --danger-bg: #f8eaea;
+  --success: #2d6a4f;
+  --success-bg: #e8f3ec;
+  --warning: #8a5a12;
+  --warning-bg: #f7efd8;
+  --neutral-badge: #4d5b62;
+  --neutral-badge-bg: #eef1f2;
+  --shadow: 0 1px 2px rgba(15, 45, 58, 0.06), 0 8px 24px rgba(15, 45, 58, 0.06);
+  --sidebar-width: 248px;
+  --header-height: 64px;
+  --radius: 10px;
+  --font: "Segoe UI", "Source Sans 3", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--paper);
+  letter-spacing: 0.01em;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
